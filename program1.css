@@ -1,0 +1,66 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: hwb(48 0% 0%);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar li {
+    display: inline;
+    margin: 5px;
+}
+.navbar a {
+    background-color: #F0F0F0;
+    color: #A4A400;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #003366;
+    color: #F0F0F0;
+    padding: 5px;
+}
+
+h1, h2 {
+    background-color: #F0F0F0;
+    color: #A4A400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.recipe-pic {
+    float: right;
+    padding-left: 15px;
+}
+
+.chart {
+    float: left;
+    padding-right: 20px;
+}
+
+table {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*padding: 5px;*/
+    border: 2px solid #F0F0F0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    ;
+}
+.tablehead {
+    background-color: #F0F0F0;
+    color: #A4A400
+}
+th {
+    background-color: #003366;
+    color: #F0F0F0;
+    border: 2px solid #F0F0F0;
+    padding: 5px;
+}
+td {
+    background-color: #CC9933;
+    border: 2px solid #F0F0F0;
+    color: #F0F0F0;
+    padding: 5px;
+}
