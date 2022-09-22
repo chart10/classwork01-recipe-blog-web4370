@@ -1,5 +1,5 @@
 html {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, serif;
     background-color: hwb(48 0% 0%);
     width: 80%;
     margin-left: auto;
@@ -9,6 +9,11 @@ html {
 .navbar li {
     display: inline;
     margin: 5px;
+    font-family: Futura, sans-serif;
+}
+.navbar span {
+    background-color: #003366;
+    padding: 5px;
 }
 .navbar a {
     background-color: #F0F0F0;
@@ -26,7 +31,7 @@ html {
 h1, h2 {
     background-color: #F0F0F0;
     color: #A4A400;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Futura, sans-serif;
     text-align: center;
 }
 
@@ -63,4 +68,27 @@ td {
     border: 2px solid #F0F0F0;
     color: #F0F0F0;
     padding: 5px;
+}
+
+.homepage-img {
+    width: 100%;
+}
+
+.landing-page {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.landing-page div {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.landing-page img {
+    width: 250px;
+    justify-content: stretch;
+}
+
+article span {
+    font-weight: bold;
 }
